@@ -89,7 +89,7 @@ const Dangnhap = () => {
                           </div>
                       </div>
 
-                      <button className="self-stretch h-12 py-3 bg-gold-to-blue rounded-xl justify-center items-center flex text-white">
+                      <button className="self-stretch h-12 py-3 mx-2 bg-gold-to-blue rounded-xl justify-center items-center flex text-white">
                                   Đăng nhập
                       </button>
                       <div className=" flex-col justify-start items-center inline-flex">
