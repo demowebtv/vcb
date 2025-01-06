@@ -32,7 +32,9 @@ body {
     overflow-x: hidden;
 }
 
-
+.bg-login{
+    -webkit-backdrop-filter: blur(250px);
+}
 
   @media (max-width: 500px) {
 
