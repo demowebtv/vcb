@@ -8,7 +8,7 @@ const Dangnhap = () => {
       <div className="relative min-h-[calc(100vh_-_150px)] h-auto z-[0]">
           <img className="bg-cover fixed top-0 w-full h-screen w-full" src="images/login_bg.png" style={{ objectFit: 'cover', objectPosition: 'top' }}/>
           <div className={`fixed top-0 w-full z-[0]`}>
-          <div className="mx-auto w-[486px] h-screen opacity-40 bg-[#287ca9] rounded-[1171px] blur-[250px]" />
+          <div className="mx-auto w-[486px] h-screen opacity-90 bg-[#287ca9] rounded-[1171px] blur-[250px]" />
           </div>
           <div className={`relative top-0 w-full z-[1] pb-10`}>
               <div className='container mx-auto px-4 pt-10 text-base-100 sm:px-6 lg:px-8 text-center'>
