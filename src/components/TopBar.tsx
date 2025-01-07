@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import MobileMenu from './MobileMenu';
 const Menu = [
     {
@@ -59,7 +59,7 @@ const TopBar = ({ isLogin }: {isLogin: boolean}) => {
                       <div className="max-xl:hidden flex-col justify-center items-end inline-flex">
                           <div className="justify-start items-start inline-flex">
                               {Menu.map(({ icon, text }) => (
-                              <div className="self-stretch pr-6 group">
+                              <div className="self-stretch pr-6 group" key={text}>
                                   <a href="#" className="flex-col justify-start items-start flex">
                                       <p className="py-3.5 justify-start items-center gap-1 inline-flex">
                                           <img src={icon} className="w-6 h-6 relative  overflow-hidden" />

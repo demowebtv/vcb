@@ -1,7 +1,5 @@
 'use client';
-
 import React from 'react';
-
 const HomeClient = () => {
     return (
         <div className="relative min-h-[calc(100vh_-_150px)] h-auto z-[0] pt-[24px]">
