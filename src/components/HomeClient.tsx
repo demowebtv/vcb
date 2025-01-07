@@ -8,8 +8,8 @@ const HomeClient = () => {
                     <div className='col-span-1'>
                         <div className="w-full gap-3 flex max-xl:flex-col">
                             <div
-                                className="w-20 h-20  max-xl:w-28 max-xl:h-28 p-3 bg-gradient-to-l from-[#eaf6ff] to-[#f3ffe9] rounded-[360px] justify-center items-center flex max-xl:m-auto">
-                                <img className="w-10 h-10 max-xl:w-16 max-xl:h-16 relative" src="icons/vcb.png"/>
+                                className="w-20 h-20 p-3 bg-gradient-to-l from-[#eaf6ff] to-[#f3ffe9] rounded-[360px] justify-center items-center flex max-xl:hidden">
+                                <img className="w-10 h-10 relative" src="icons/vcb.png"/>
                             </div>
                             <div className="grow shrink basis-0 flex-col justify-start items-start gap-6 inline-flex">
                                 <div className="w-full px-6 pt-[15px] pb-[17px] bg-neutral-50 rounded-xl">
@@ -69,11 +69,11 @@ const HomeClient = () => {
                     </div>
                     <div className='col-span-1'>
                         <div className="w-full basis-0 px-2 pt-2 pb-4 bg-white rounded-2xl border border-black/10">
-                            <div className="w-full h-[405px] rounded-lg">
+                            <div className="w-full rounded-lg">
                                 <iframe src="https://www.youtube.com/embed/K2UdFovl-XY?si=8KlsvzeC6rtN5twP"
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen className="w-full h-full rounded-xl"></iframe>
+                                        allowFullScreen className="w-full aspect-video rounded-xl"></iframe>
                             </div>
                             <div className="w-full pt-5">
                                 <div
