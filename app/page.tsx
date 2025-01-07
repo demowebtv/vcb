@@ -7,6 +7,9 @@ function Home() {
       <li>
         <Link href="/Login">Login</Link>
       </li>
+        <li>
+            <Link href="/Home">Home</Link>
+        </li>
     </ul>
   )
 }

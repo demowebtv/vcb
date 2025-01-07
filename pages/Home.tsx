@@ -1,17 +1,17 @@
 'use client';
 import React from 'react';
-import Dangnhap from '../src/components/Dangnhap';
+import HomeClient from '../src/components/HomeClient';
 import TopBar from '../src/components/TopBar';
 import Footer from '../src/components/Footer';
 
-const Login = () => {
+const Home = () => {
 
   return (
-    <><TopBar isLogin={true} />
-      <Dangnhap />
+    <><TopBar isLogin={false}/>
+      <HomeClient />
       <Footer />
     </>
   )
 }
 
-export default Login;
+export default Home;

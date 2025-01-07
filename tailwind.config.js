@@ -11,7 +11,19 @@ module.exports = {
     // "./node_modules/flowbite-react/lib/**/*.js",
   ],
   theme: {
+    container: {
+      screens: {
+        'sm': '100%',
+        'md': '100%',
+        'lg': '1024px',
+        'xl': '1200px',
+        '2xl': '1312px',
+      }
+    },
     extend: {
+      screens: {
+        'xl': '1200px',
+      },
       backgroundImage: {
         'gold-to-blue': 'radial-gradient(300.55% 959.41% at 293.35% -237.5%, #00502F 0%, #0A6F47 67.24%, #629F0D 98.3%)'
 
@@ -35,6 +47,28 @@ module.exports = {
       'rosegold': '#D8A298',
       'rosegold-light': '#F3E2DF',
     },
+  },
+  daisyui: {
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
+          "primary": "#A1C038",
+
+        },
+        dark: {
+          ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
+          "secondary": "#007EBD",
+        },
+      },
+    ],
+    styled: true,
+    base: true,
+    utils: true,
+    logs: false,
+    rtl: false,
+    prefix: '',
+    darkTheme: false,
   },
   plugins: [
     require("daisyui"),
