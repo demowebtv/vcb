@@ -126,7 +126,7 @@ const TopBar = ({ isLogin }: {isLogin: boolean}) => {
                               <div className="w-12 h-12 p-3 bg-[#a1c038] mr-6 rounded-3xl justify-center items-center inline-flex">
                                   <div className="grow shrink basis-0 flex-col justify-start items-start inline-flex overflow-hidden">
                                       <a href='#' className="w-6 h-6 flex-col justify-center items-center flex overflow-hidden">
-                                          <img src='icons/mlogin.svg' className="w-6 h-6 relative  overflow-hidden" />
+                                          <img src='icons/logout.svg' className="w-6 h-6 relative  overflow-hidden" />
                                       </a>
                                   </div>
                               </div>
