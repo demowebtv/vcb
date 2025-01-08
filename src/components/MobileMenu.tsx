@@ -26,7 +26,7 @@ const MobileMenu = ({goClick}:{goClick?: () => void}) => {
         <div className="h-screen w-full fixed bg-white text-5xl top-0 text-center bg-slate-300/50 -mb-20 z-[10]">
             <div className="h-[72px] w-full bg-white xl:shadow-[inset_0px_-1px_0px_0px_rgba(0,0,0,0.10)] z-[20] relative">
                 <div className="container m-auto pt-3 pb-[11px]">
-                    <div className="justify-between items-start flex max-xl:px-10">
+                    <div className="justify-between items-start flex max-xl:px-3">
                         <div className="h-[55.60px] flex-col justify-start items-start inline-flex">
                             <img className="h-10 relative" src="images/logo.svg" />
                         </div>

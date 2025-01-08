@@ -1,19 +1,19 @@
 'use client';
 import React from 'react';
-import HomeClient from '../src/components/HomeClient';
+import AccreditForm from '../src/components/AccreditForm';
 import TopBar from '../src/components/TopBar';
 import Footer from '../src/components/Footer';
 
-const Home = () => {
+const ThemUyQuyen = () => {
 
   return (
     <><div className="xl:px-3 xxl:px-0">
         <TopBar isLogin={false}/>
-      <HomeClient />
+      <AccreditForm />
       <Footer />
     </div>
     </>
   )
 }
 
-export default Home;
+export default ThemUyQuyen;

@@ -1,19 +1,19 @@
 'use client';
 import React from 'react';
-import HomeClient from '../src/components/HomeClient';
+import AccreditClient from '../src/components/AccreditClient';
 import TopBar from '../src/components/TopBar';
 import Footer from '../src/components/Footer';
 
-const Home = () => {
+const UyQuyen = () => {
 
   return (
     <><div className="xl:px-3 xxl:px-0">
         <TopBar isLogin={false}/>
-      <HomeClient />
+      <AccreditClient />
       <Footer />
     </div>
     </>
   )
 }
 
-export default Home;
+export default UyQuyen;

@@ -4,12 +4,33 @@ const HomeClient = () => {
     return (
         <div className="relative min-h-[calc(100vh_-_150px)] h-auto z-[0] pt-[24px]">
             <div className="container mx-auto w-full max-xl:px-3">
-                <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-12">
+                <div className="text-black/80 text-[32px] font-extrabold leading-10 pb-5 max-xl:text-2xl">Đại hội đồng cổ đông thường niên năm 2024</div>
+                <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-3 max-xl:gap-12">
                     <div className='col-span-1'>
-                        <div className="w-full gap-3 flex max-xl:flex-col">
-                            <div
-                                className="w-20 h-20 p-3 bg-gradient-to-l from-[#eaf6ff] to-[#f3ffe9] rounded-[360px] justify-center items-center flex max-xl:hidden">
-                                <img className="w-10 h-10 relative" src="icons/vcb.png"/>
+                        <div className="w-full gap-3 flex flex-col">
+                            <div className="px-6 py-9 bg-gradient-to-l from-[#eaf6ff] to-[#f3ffe9] rounded-xl flex-col justify-start items-start gap-9 inline-flex">
+                                <div className="justify-start items-center xl:gap-3 flex max-xl:gap-1">
+                                    <div className="text-black/80 text-xl font-bold leading-[30px]">Thời gian: </div>
+                                    <div className="text-[#065c44] text-xl font-semibold leading-normal">8:00 ngày 27/4/2024</div>
+                                </div>
+                                <div className="self-stretch justify-start items-start gap-3 inline-flex max-xl:flex-col">
+                                    <div className="text-black/80 text-xl font-bold leading-[30px]">Địa điểm: </div>
+                                    <div className="grow shrink basis-0 text-[#065c44] text-xl font-semibold leading-normal">Trường Đào tạo và Phát triển nguồn nhân lực VCB,<br/>KĐT Ecopark, xã Cửu Cao, huyện Văn Giang, Hưng Yên</div>
+                                </div>
+                                <div className="w-full justify-start items-center gap-4 flex max-xl:flex-col">
+                                    <button className="w-full grow shrink basis-0 h-14 px-6 py-2 bg-white rounded-lg border border-black/10 justify-center items-center gap-2 flex">
+                                        <div className="w-10 h-10 p-2 bg-gradient-to-l from-[#eaf6ff] to-[#f3ffe9] rounded-[360px] justify-center items-center flex">
+                                            <img alt="" src="/icons/book1.svg"/>
+                                        </div>
+                                        <div className="text-center text-[#6da544] text-base font-semibold leading-normal">Tài liệu họp</div>
+                                    </button>
+                                    <button className="w-full grow shrink basis-0 h-14 px-6 py-2 bg-white rounded-lg border border-black/10 justify-center items-center gap-2 flex">
+                                        <div className="w-10 h-10 p-2 bg-gradient-to-l from-[#eaf6ff] to-[#f3ffe9] rounded-[360px] justify-center items-center flex">
+                                            <img alt="" src="/icons/book.svg"/>
+                                        </div>
+                                        <div className="text-center text-[#6da544] text-base font-semibold leading-normal">Hướng dẫn sử dụng</div>
+                                    </button>
+                                </div>
                             </div>
                             <div className="grow shrink basis-0 flex-col justify-start items-start gap-6 inline-flex">
                                 <div className="w-full px-6 pt-[15px] pb-[17px] bg-neutral-50 rounded-xl">
@@ -38,7 +59,7 @@ const HomeClient = () => {
                                                 phần sở hữu
                                             </div>
                                             <div
-                                                className="text-[#065c44] text-base font-semibold  leading-normal">1000000
+                                                className="text-[#065c44] text-base font-semibold  leading-normal">1.000.000
                                             </div>
                                         </div>
                                         <div
@@ -47,22 +68,22 @@ const HomeClient = () => {
                                                 phần được ủy quyền
                                             </div>
                                             <div
-                                                className="text-[#065c44] text-base font-semibold  leading-normal">400000
+                                                className="text-[#065c44] text-base font-semibold  leading-normal">400.000
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="w-full justify-center items-start gap-4 inline-flex">
-                                    <a href={"#"}
+                                    <button
+                                       className="btn btn-secondary min-w-[48%] border-[#ebebeb] btn-outline">
+                                        <span
+                                            className="text-[#074c31]">Checkin</span>
+                                    </button>
+                                    <button
                                        className="btn btn-primary min-w-[48%]">
                                         <span
                                             className="text-black/80">Ủy quyền</span>
-                                    </a>
-                                    <a href={'#'}
-                                       className="btn btn-primary min-w-[48%] border-[#ebebeb] btn-outline">
-                                        <span
-                                            className="text-[#074c31]">Checkin</span>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -75,9 +96,9 @@ const HomeClient = () => {
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen className="w-full aspect-video rounded-xl"></iframe>
                             </div>
-                            <div className="w-full pt-5">
+                            <div className="w-full py-8 max-xl:py-4">
                                 <div
-                                    className="text-black/60 text-[13px] font-bold  uppercase leading-tight">Thời
+                                    className="text-black/60 text-[13px] font-bold  uppercase leading-tight max-xl:py-2 pl-5">Thời
                                     gian còn lại cho đến ngày đại hội
                                 </div>
                                 <div className="w-full items-start justify-around flex">

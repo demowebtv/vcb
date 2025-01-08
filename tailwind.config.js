@@ -54,11 +54,15 @@ module.exports = {
         light: {
           ...require("daisyui/src/theming/themes")["[data-theme=light]"],
           "primary": "#A1C038",
+          "secondary": "#FFF",
+          "accent": "#f6f6f6",
 
         },
         dark: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
-          "secondary": "#007EBD",
+          "primary": "#A1C038",
+          "secondary": "#FFF",
+          "accent": "#f6f6f6",
         },
       },
     ],
