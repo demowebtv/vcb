@@ -10,12 +10,12 @@ const HomeClient = () => {
                         <div className="w-full gap-3 flex flex-col">
                             <div className="px-6 py-9 bg-gradient-to-l from-[#eaf6ff] to-[#f3ffe9] rounded-xl flex-col justify-start items-start gap-9 inline-flex">
                                 <div className="justify-start items-center xl:gap-3 flex max-xl:gap-1">
-                                    <div className="text-black/80 text-xl font-bold leading-[30px]">Thời gian: </div>
-                                    <div className="text-[#065c44] text-xl font-semibold leading-normal">8:00 ngày 27/4/2024</div>
+                                    <div className="text-black/80 text-xl max-xl:text-lg font-bold leading-[30px]">Thời gian: </div>
+                                    <div className="text-[#065c44] text-xl max-xl:text-lg font-semibold leading-normal">8:00 ngày 27/4/2024</div>
                                 </div>
                                 <div className="self-stretch justify-start items-start gap-3 inline-flex max-xl:flex-col">
-                                    <div className="text-black/80 text-xl font-bold leading-[30px]">Địa điểm: </div>
-                                    <div className="grow shrink basis-0 text-[#065c44] text-xl font-semibold leading-normal">Trường Đào tạo và Phát triển nguồn nhân lực VCB,<br/>KĐT Ecopark, xã Cửu Cao, huyện Văn Giang, Hưng Yên</div>
+                                    <div className="text-black/80 text-xl max-xl:text-lg font-bold leading-[30px]">Địa điểm: </div>
+                                    <div className="grow shrink basis-0 text-[#065c44] text-xl max-xl:text-lg font-semibold leading-normal">Trường Đào tạo và Phát triển nguồn nhân lực VCB,<br/>KĐT Ecopark, xã Cửu Cao, huyện Văn Giang, Hưng Yên</div>
                                 </div>
                                 <div className="w-full justify-start items-center gap-4 flex max-xl:flex-col">
                                     <button className="w-full grow shrink basis-0 h-14 px-6 py-2 bg-white rounded-lg border border-black/10 justify-center items-center gap-2 flex">

@@ -4,18 +4,23 @@ const Menu = [
     {
         icon: 'icons/Home.svg',
         text: 'Trang chủ',
+        link: '/Home'
     },{
         icon: 'icons/uq.svg',
         text: 'Ủy quyền',
+        link: 'uy-quyen'
     },{
         icon: 'icons/Vote.svg',
         text: 'Biểu quyết và bầu cử',
+        link: '#'
     },{
         icon: 'icons/question.svg',
         text: 'Gửi câu hỏi',
+        link: '#'
     },{
         icon: 'icons/chart.svg',
         text: 'Xem kết quả',
+        link: '#'
     },
 
 ];
@@ -47,12 +52,12 @@ const MobileMenu = ({goClick}:{goClick?: () => void}) => {
                 </div>
             </div>
             <div className='m_nav flex flex-col gap-2 pt-3'>
-                {Menu.map(({ icon, text }) => (
+                {Menu.map(({ icon, text,link }) => (
                     <li
                         className={`group flex w-full font-medium px-10 bg-[#a1c03812]`}
                         key={text}
                     >
-                        <a href="#" className="py-3.5 justify-start items-center gap-1 inline-flex" onClick={() => goClick?.()}>
+                        <a href={link} className="py-3.5 justify-start items-center gap-1 inline-flex" onClick={() => goClick?.()}>
                             <img src={icon} className="w-6 h-6 relative  overflow-hidden" />
                             <span className="text-black/80 text-base font-semibold leading-normal pl-1">{text}</span>
                         </a>
